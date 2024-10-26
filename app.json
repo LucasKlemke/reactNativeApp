@@ -13,7 +13,8 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lucasklemke.myapp"
     },
     "android": {
       "adaptiveIcon": {
@@ -31,6 +32,11 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6f7567a3-2d57-4595-9a25-71fa5af2b008"
+      }
     }
   }
 }
