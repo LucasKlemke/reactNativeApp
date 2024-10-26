@@ -1,50 +1,110 @@
-# Welcome to your Expo app 👋
+# Editor de Imagem em React Native
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Bem-vindo ao projeto **Editor de Imagem**! Este é um aplicativo de edição de imagem desenvolvido em **React Native**, que permite aos usuários aplicar filtros, cortar imagens, ajustar brilho/contraste, e realizar outras operações básicas de edição.
 
-## Get started
+## 📋 Índice
 
-1. Install dependencies
+- [Visão Geral](#visão-geral)
+- [Funcionalidades](#funcionalidades)
+- [Pré-requisitos](#pré-requisitos)
+- [Instalação](#instalação)
+- [Uso](#uso)
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Contribuição](#contribuição)
+- [Licença](#licença)
+
+## 🌟 Visão Geral
+
+Este projeto é um editor de imagens móvel criado com **React Native**. Seu objetivo é oferecer uma interface intuitiva para editar fotos diretamente no celular, aplicando diferentes filtros e ajustes para melhorar a imagem.
+
+## ✨ Funcionalidades
+
+- Carregar uma imagem da galeria ou câmera.
+- Aplicar filtros predefinidos (Preto e Branco, Sépia, etc).
+- Ajustar o brilho, contraste e saturação.
+- Cortar e redimensionar a imagem.
+- Desfazer/Refazer alterações.
+- Salvar a imagem editada na galeria.
+- Compartilhar a imagem nas redes sociais.
+
+## 🛠️ Pré-requisitos
+
+Antes de começar, certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
+
+- [Node.js](https://nodejs.org/) (versão 14+)
+- [React Native CLI](https://reactnative.dev/docs/environment-setup)
+- [Expo CLI](https://docs.expo.dev/get-started/installation/)
+- Gerenciador de pacotes como `npm` ou `yarn`
+
+## 📦 Instalação
+
+Siga estas etapas para configurar o ambiente de desenvolvimento local:
+
+1. Clonar repositório:
+
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   ```
+
+2. Instalar dependecnias
 
    ```bash
    npm install
    ```
 
-2. Start the app
+3. Iniciar o app
 
    ```bash
     npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+Na saída, você encontrará opções para abrir o aplicativo em
 
 - [development build](https://docs.expo.dev/develop/development-builds/introduction/)
 - [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/) (Requer dispositivo MACOS)
+- [Expo Go](https://expo.dev/go)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Você pode começar a desenvolver editando os arquivos dentro do diretório **app**. Este projeto utiliza [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+## 🗂️ Estrutura do Projeto
 
-When you're ready, run:
+Aqui está uma visão geral da estrutura do projeto:
 
-```bash
-npm run reset-project
+```
+/editor-de-imagem-react-native
+├── android/             # Configurações do projeto Android
+├── ios/                 # Configurações do projeto iOS
+├── src/                 # Código-fonte do aplicativo
+│   ├── components/      # Componentes reutilizáveis
+│   ├── screens/         # Telas do aplicativo
+│   ├── assets/          # Imagens, ícones e outros recursos
+│   └── utils/           # Funções utilitárias e helpers
+├── App.js               # Componente raiz do React Native
+├── package.json         # Dependências e scripts do projeto
+├── .gitignore           # Arquivos e pastas a serem ignorados pelo Git
+└── README.md            # Documentação do projeto
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🤝 Contribuição
 
-## Learn more
+Contribuições são bem-vindas! Para contribuir com este projeto:
 
-To learn more about developing your project with Expo, look at the following resources:
+1. Faça um fork do repositório.
+2. Crie uma branch para sua feature (`git checkout -b minha-feature`).
+3. Faça commit das suas mudanças (`git commit -m 'Adiciona uma nova feature'`).
+4. Envie para o repositório remoto (`git push origin minha-feature`).
+5. Abra um Pull Request.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 📄 Licença
 
-## Join the community
+Este projeto está sob a licença [MIT](https://opensource.org/licenses/MIT). Sinta-se à vontade para usar, modificar e distribuir conforme os termos da licença.
 
-Join our community of developers creating universal apps.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+
+
+
+
+
+
